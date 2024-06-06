@@ -59,6 +59,9 @@ Default: 9px
 html {
   font-size: 10px;
   overflow-x: hidden;
+
+  /* Does Not work on Safari */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -67,7 +70,7 @@ body {
   font-weight: 400;
   color: #555;
 
-  /* Only works if there is nothing absolutely  */
+  /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
